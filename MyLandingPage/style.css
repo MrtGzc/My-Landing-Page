@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+#navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: .5rem;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: .5rem 0;
+}
+
+#navbar ul li:hover{
+    border-radius: 10px;
+    background: #336ea2;
+}
+
+#navbar ul li{
+    padding: .6rem;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    margin: 2rem 1.5rem;
+}
+
+/* Home Section */
+
+#home{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    border-bottom: 3px solid #808080;
+    padding: 1.5rem;
+}
+
+.school{
+    width: 10vw;
+    margin: 0px 5vw;
+}
+
+#home .owner{
+    margin-bottom: 15px;
+    width: 25vw;
+    border-radius: 100%;
+}
+
+#home p{
+    font-size: x-large;
+    color: #808080;
+    margin: 10px 0px 20px 0px;
+}
+
+#home a{
+    padding: 1rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#home a:hover{
+    background: #336ea2;
+}
+
+/* About Me */
+
+#about-me{
+    background: #062e51;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 10px;
+}
+
+#about-me .items{
+    display: flex;
+    margin-top: 1rem;
+}
+
+#about-me .item{
+    padding: 0rem 1rem;
+    width: 33%;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.text{
+    height: 100px;
+    border: none;
+}
+
+
+
+
+
+.gray-border{
+    width: 80%;
+    margin: 20px auto;
+    border-top: 3px solid gray;
+}
+
+
+/* social media */
+
+.social-media{
+    padding: 1rem;
+    text-align: center;
+}
+
+i{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.social-media h3{
+    margin: 0 auto;
+    width: 30%;
+    border-bottom: 3px solid black;
+}
+
+

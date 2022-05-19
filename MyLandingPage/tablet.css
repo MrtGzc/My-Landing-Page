@@ -1,0 +1,42 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.3rem;
+}
+
+#navbar ul{
+    padding: 0;    
+}
+
+#navbar ul li{
+    margin: 0 1.0rem; 
+}
+
+/* Home Section */
+
+#home{
+    padding: 2rem 0rem;
+}
+
+#home .owner{
+    margin: 0px;
+    width: 28vw;
+    border-radius: 100%;
+}
+
+.school{
+    width: 15vw;
+    margin: 0px 5vw;
+}
+
+/* about me */
+
+#about-me .items{
+    flex-direction: column;
+}
+
+#about-me .item{
+    text-align: center;
+    width: 98%;
+    padding: 1rem;
+}
+

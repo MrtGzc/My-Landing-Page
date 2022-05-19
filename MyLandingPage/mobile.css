@@ -1,0 +1,42 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.3rem;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    margin: .1rem
+}
+
+#navbar li{
+    margin: 0rem;
+}
+
+#navbar ul li{
+    padding: 7px;
+    margin: 0px;
+}
+
+/* Home Section */
+
+#home{
+    padding: 2rem 0rem;
+}
+
+#home p{
+    font-size: small;
+    color: #808080;
+    margin: 10px 0px 20px 0px;
+}
+
+.school{
+    width: 18vw;
+    margin: 0px 0vw;
+}
+
+#home .owner{
+    margin: 0px;
+    width: 41vw;
+    border-radius: 100%;
+}
